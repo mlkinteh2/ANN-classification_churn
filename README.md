@@ -1,5 +1,3 @@
-# ANN-classification_churn
-
 # Customer Churn Prediction App
 
 Predict whether a bank customer is likely to churn using a trained Artificial Neural Network (ANN) model. This project demonstrates how machine learning can help banks identify at-risk customers and take action to retain them.
