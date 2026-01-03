@@ -32,10 +32,28 @@ The model is trained on historical customer data, including features such as:
 The **Streamlit app** allows users to input customer details and immediately see a churn probability along with a clear prediction.
 
 ---
-
 ## Features
 
 - Interactive input for customer details
 - Real-time churn probability prediction
 - Clear output: “Likely to churn” or “Not likely to churn”
 - User-friendly interface for non-technical users
+
+## Installation
+
+To run this project locally:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/mlkinteh2/ANN-classification.git
+cd ANN-classification
+
+python -m venv venv
+source venv/bin/activate    # Linux/Mac
+venv\Scripts\activate       # Windows
+pip install -r requirements.txt
+streamlit run src/app.py
+---
+## Author
+Modou Lamin Kinteh
+LinkedIn: https://www.linkedin.com/in/mlkinteh/
